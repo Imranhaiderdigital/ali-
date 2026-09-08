@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ali Hassan — Marketing Manager</title>
+<title>Ali Hassan — Digital Marketing Specialist</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -180,7 +180,7 @@
     background:var(--line);
   }
   .t-row{
-    display:grid; grid-template-columns:120px 1fr; gap:36px;
+    display:grid; grid-template-columns:120px 1fr auto; gap:36px; align-items:center;
     padding:30px 0; border-bottom:1px solid rgba(189,149,80,0.14);
   }
   .t-row:last-child{ border-bottom:none; }
@@ -193,6 +193,12 @@
   }
   .t-body h3{ font-size:1.15rem; color:var(--sand); margin-bottom:8px; font-family:'IBM Plex Sans Arabic'; font-weight:500;}
   .t-body p{ font-size:0.93rem; color:var(--sand-dim); max-width:58ch; }
+  .t-icon{
+    width:54px; height:54px; border:1px solid var(--line); border-radius:50%;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+  }
+  .t-icon svg{ width:24px; height:24px; stroke:var(--gold); fill:none; stroke-width:1.4; }
+  @media (max-width:860px){ .t-icon{ display:none; } }
 
   /* ---------- skills ---------- */
   .skills{ background:var(--sand); }
@@ -258,9 +264,9 @@
 <section class="hero">
   <div class="hero-inner">
     <div>
-      <div class="eyebrow-line"><span class="dash"></span> Marketing Manager · Kingdom of Saudi Arabia</div>
+      <div class="eyebrow-line"><span class="dash"></span> Digital Marketing Specialist · Kingdom of Saudi Arabia</div>
       <h1>Ali Hassan builds brands<br> that <em>reach further.</em></h1>
-      <p class="role">Marketing manager with hands-on experience across social media management, digital campaigns, and community leadership — now based in Saudi Arabia and open to opportunities across the Gulf.</p>
+      <p class="role">Digital marketing specialist with hands-on experience across social media management, ad campaigns, and community leadership — now based in Saudi Arabia and open to opportunities across the Gulf.</p>
       <div class="hero-meta">
         <div><strong>Based in</strong>Al Bid'ah, Riyadh, Saudi Arabia</div>
         <div><strong>Languages</strong>Urdu · English</div>
